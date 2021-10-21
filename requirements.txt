@@ -1,0 +1,4 @@
+plotly==5.3.1
+streamlit==1.0.0
+yfinance==0.1.64
+prophet==1.0.1
