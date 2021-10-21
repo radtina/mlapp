@@ -6,7 +6,7 @@ from prophet import Prophet
 from prophet.plot import plot_plotly
 from plotly import graph_objs as go
 
-st.title('Stock Forecast App')
+st.title('Crypto & Stock Forecast App')
 
 #defining starting date and ending date of stock tickers
 START = "2015-01-01"
