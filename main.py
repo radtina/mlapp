@@ -17,8 +17,8 @@ stocks = ('BTC-USD', 'ETH-USD', 'GOOG', 'AAPL', 'MSFT')
 selected_stock = st.selectbox("Select dataset for prediction", stocks) 
 
 #number of years in the future to be forecasted
-n_years = st.slider("Years of prediction:", 1, 10)
-period = n_years * 30
+n_years = st.slider("Years of prediction:", 1, 4)
+period = n_years * 365
 
 #downloading ticker data using yfinance
 @st.cache 
